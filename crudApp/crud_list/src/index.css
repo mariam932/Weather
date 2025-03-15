@@ -1,0 +1,77 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: darksalmon;
+  text-align: center;
+  margin: 0px;
+}
+
+.App{
+  box-shadow: 1px 2px 5px #eee;
+  margin: 190px auto;
+  width: 80%;
+  background-color: white;
+  color: #fff;
+}
+
+h2{
+  background-color: darksalmon;
+  padding: 18px;
+  color: white;
+}
+
+input{
+border: 0;
+width:80% ;
+padding: 10px 6px;
+background-color:#ebebeb;
+}
+
+button{
+  border: 0;
+  padding: 6px 0px;
+  width: 20%;
+  margin: 0;
+  outline: 0;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: darksalmon;
+}
+
+ul{
+  list-style: none;
+  padding: 0px;
+}
+
+li{
+  margin: 15px 0px;
+}
+
+li span{
+  width: 60%;
+  display: inline-block;
+  color: #6a6a6a;
+}
+
+li >button:first-of-type{
+width: 19%;
+margin-right: 1%;
+background-color: #6a6a6a;
+color: #fff;
+}
+
+li >button:last-of-type{
+  background-color: #d9534f;
+  color: #fff;
+}
+
+ul>form{
+  margin: 15px 0px;
+}
+
+.Add{
+  padding: 10px 0px;
+}
